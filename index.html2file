@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a page about coding" />
+    <title>Learn SEO and Core by Hrithik</title>
+  </head>
+  <body>
+    <h1>Learn SEO and Core by Hrithik</h1>
+
+    <img
+      src="https://cdn.shopify.com/s/files/1/0840/8370/3830/articles/1603954182-seo-article-header.png?v=1714646999"
+      alt="SEO banner"
+      width="400"
+      height="200"
+    />
+
+    <h2>What is SEO?</h2>
+    <p>
+      SEO, short for Search Engine Optimization, is the process of improving a
+      website's visibility in search engine results pages (SERPs) like Google.
+      The goal is to increase organic (unpaid) traffic by making the website
+      more relevant and discoverable for users' searches.
+    </p>
+
+    <h3>Key Aspects of SEO:</h3>
+    <p>Identifying relevant keywords that users search for.</p>
+
+    <h3>On-Page Optimization:</h3>
+    <p>
+      Optimizing website content, structure, and coding to improve search engine
+      rankings.
+    </p>
+
+    <h3>Off-Page Optimization:</h3>
+    <p>
+      Building backlinks from other reputable websites to improve domain
+      authority.
+    </p>
+
+    <h3>Why SEO is Important:</h3>
+    <p>
+      <strong>Increased Traffic:</strong> Higher search engine rankings lead to
+      more visitors to the website. <br />
+      <strong>Improved Credibility:</strong> Ranking well on SERPs can build
+      trust and credibility for the website. <br />
+      <strong>Reduced Reliance on Paid Advertising:</strong> SEO focuses on
+      organic traffic, reducing the need for paid ads.
+    </p>
+
+    <script>
+      function previewImage(event) {
+        const reader = new FileReader();
+        reader.onload = function () {
+          const output = document.getElementById("imagePreview");
+          output.src = reader.result;
+          output.style.display = "block";
+        };
+        reader.readAsDataURL(event.target.files[0]);
+      }
+    </script>
+<h2>Create Account your account for the next lesson</h2>
+
+<div class="register-container">
+    <form id="registerForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Register</button>
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <script src="register.js"></script>
+<div>
+      <label for="Comment">Enter you Comment</label>
+      <br />
+      <textarea id="comments" rows="4" cols="50"></textarea>
+    </div>
+    <p>Hope to see you again
+    </p>
+  </body>
+</html>
